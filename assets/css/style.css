@@ -43,6 +43,17 @@ header a {
 .active {
   border-bottom: 1px solid #3a3a3a;
 }
+/* Nav bar styles with drop down toggle */
+nav {
+  position:absolute;
+  background:#ffffff;
+  width:100%;
+  left: 0;
+  box-shadow: 0 2px 2px #3a3a3a;
+  padding:0 1rem;
+  display:none;
+  
+}
 
 h1 {
   font-family: 'oswald', sans-serif;
