@@ -100,4 +100,10 @@ footer {
   #menu {
     display: flex;
   }
+  #menu > li {
+    padding: 1rem;
+  }
+  .nav-toggle-label {
+    display:none;
+  }
 }
