@@ -77,10 +77,15 @@ h1 {
 
 /* Main content */
 main {
-  background-color: lightblue;
   /* Makes main element take up any surplus space in browser */
   flex:1 0 auto;
   margin-top: 47px;
+}
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
 }
 
 /* Footer */
