@@ -232,10 +232,20 @@ main {
     border-radius: 2px;
     padding: 0 5px;
 }
+/* URBAN/TRAIL/BOTH */
 .radio-buttons {
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+/* Let's Run! BUTTON */
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
 }
 
 /* MEDIA QUERY: large or landscape phones (576px and up) */
@@ -244,8 +254,7 @@ main {
     column-count: 2;
     column-gap: 0;
     }
-    
-}
+} 
 
 /* MEDIA QUERY: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
