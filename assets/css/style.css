@@ -1,21 +1,21 @@
-/* Google fonts import */
+/* GOOGLE FONTS INPORT */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-/* wildcard astirisk to override default styles added by the browser */
+/* wildcard astirisk to override default styles added by the browser. */
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-/* General styles  */
+/* GENERAL STYLES  */
 body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-/* Generic project styles */
-color: #3a3a3a;
-font-family: 'lato', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+/* GENERIC PROJECT STYLES */
+    color: #3a3a3a;
+    font-family: 'lato', sans-serif;
 }
 
 h1, h2, h3 {
@@ -29,46 +29,46 @@ h1, h2, h3 {
     display: none;
 }
 
-/* Header */
+/* HEADER */
 header {
-  background-color: #ffffff;
-  padding: 0 1rem;
-  position: fixed;
-  z-index: 99;
-  width: 100%;
-  box-shadow: 0 2px 2px #3a3a3a;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
-  text-decoration: none;
-  color:inheret;
+    text-decoration: none;
+    color:inheret;
 }
 #menu {
-  font-size: 110%;
-  letter-spacing: 4px;
-  list-style-type:none
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type:none
 }
 #menu > li {
-  margin-bottom: 1em;
+    margin-bottom: 1em;
 }
 .active {
-  border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
 }
-/* Nav bar styles with drop down toggle */
+/* Nav bar styles with drop down toggle. */
 nav {
-  position:absolute;
-  background:#ffffff;
-  width:100%;
-  left: 0;
-  box-shadow: 0 2px 2px #3a3a3a;
-  padding:0 1rem;
-  display:none;
-  top: 100%;
+    position:absolute;
+    background:#ffffff;
+    width:100%;
+    left: 0;
+    box-shadow: 0 2px 2px #3a3a3a;
+    padding:0 1rem;
+    display:none;
+    top: 100%;
 }
-/* nav-toggle */
+/* NAV-TOGGLE */
 #nav-toggle:checked~nav {
     display: block
 }
@@ -79,14 +79,14 @@ nav {
     font-size: 2rem;
 }
 
-/* Main content */
+/* MAIN CONTENT */
 main {
-  /* Makes main element take up any surplus space in browser */
-  flex:1 0 auto;
-  margin-top: 47px;
+  /* Makes main element take up any surplus space in browser. */
+    flex:1 0 auto;
+    margin-top: 47px;
 }
 
-/* Hero section */
+/* HERO SECTION */
 #hero {
     height: 600px;
     width: 100%;
@@ -95,7 +95,7 @@ main {
 }
 
 #cover-text {
-    /* rgba (a) sets the value of the opacity so it is semi-transparent */
+    /* rgba (a) sets the value of the opacity so it is semi-transparent. */
     background-color: rgba(241, 109, 107, .7);
     font: 130%;
     position: absolute;
@@ -110,7 +110,7 @@ main {
     color:white
 }
 
-/* start reasons section*/
+/* REASONS SECTION */
 #reasons {
     width: 90%;
     margin:20px auto;
@@ -137,7 +137,7 @@ hr {
     height: 90vw;
     width: 90vw;
     border-radius: 100%;
-    /* makes the square image into a circle  */
+    /* makes the square image into a circle. */
     margin-bottom: 20px;
     max-width: 300px;
     max-height: 300px;
@@ -148,10 +148,10 @@ hr {
     align-items: center;
     justify-content: center;
 }
-/* meet-up times section */
+/* MEET-UP TIMES SECTION */
 #times {
     background: url(../images/dublin-city.webp) no-repeat center/cover;
-    /* handles responsivity without the need for media query */
+    /* handles responsivity without the need for media query. */
     display: flex;
     flex-wrap: wrap;
 }
@@ -160,19 +160,19 @@ hr {
     background-color: rgba(0, 0, 0, .6);
     padding: 15px;
     text-align: center;
-    /* this will not wrap on screens of less than 400px wide */
-    /* each div will expand to fill the available space on its row */
+    /* this will not wrap on screens of less than 400px wide. */
+    /* each div will expand to fill the available space on its row. */
     flex-basis: 200px;
     flex-grow: 1;
-    /* creates a grid of meet-up time divs over the background image */
+    /* creates a grid of meet-up time divs over the background image. */
     border: 2px solid white;
 }
 #times h3 {
-    /* override the heading color set in general styles */
+    /* override the heading color set in general styles. */
     color: #fafafa;
 }
 
-/* Gallery page */
+/* GALLERY PAGE */
 #photos img {
     width: 100%;
     line-height: 1em;
@@ -181,7 +181,7 @@ hr {
     line-height: 0;
 }
 
-/* Footer */
+/* FOOTER */
 #social-networks {
     padding: 20px 0;
     text-align: center;
@@ -195,17 +195,17 @@ hr {
     color: #3a3a3a;
 }
 
-/* Main content for sign-up page */
+/* MAIN CONTENT FOR SIGN-UP PAGE */
 main {
-    /* Enlarge main element to push footer down*/
+    /* Enlarge main element to push footer down.*/
     flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being covered by the header */
+    /* Add margin at the top to prevent content from being covered by the header. */
     margin-top: 47px;
-    /* Enable flex properties for child elements */
+    /* Enable flex properties for child elements. */
     display: flex;
     flex-direction: column;
 }
-/* Form */
+/* FORM */
 #signup {
     background-image:url(../images/signup-image.webp);
     background-size: cover;
@@ -222,25 +222,35 @@ main {
     color: #fafafa;
     margin-bottom: 20px;
 }
+.text-input {
+  background: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+  padding: 0 5px;
+}
 
-/* media query: large or landscape phones (576px and up) */
+/* MEDIA QUERY: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-    #photos {
-        column-count: 2;
-        column-gap: 0;
+  #photos {
+    column-count: 2;
+    column-gap: 0;
     }
     
 }
 
-/* media query: tablets and larger (768px and up) */
+/* MEDIA QUERY: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /* header */
+    /* HEADER */
   nav {
-  display: block;
-  position:relative;
-  box-shadow:none;
-  width:fit-content;
-  padding-right:1rem;
+    display: block;
+    position:relative;
+    box-shadow:none;
+    width:fit-content;
+    padding-right:1rem;
   }
   #menu {
     display: flex;
@@ -256,17 +266,17 @@ main {
     line-height: 75px;
     margin: 0 0.5rem;
   }
-  /* main content */
+  /* MAIN CONTENT */
   main {
-    /* push main content down to accommodate larger header */
-  margin-top: 94px;
+    /* push main content down to accommodate larger header. */
+    margin-top: 94px;
   } 
-  /* hero */
+  /* HERO */
   #cover-text {
-      width: 300px;
-      right: 50px;
+    width: 300px;
+    right: 50px;
   }
-  /* reasons section */
+  /* REASONS SECTION */
   #benefits-physical,
   #benefits-mental {
     display: flex;
@@ -281,43 +291,43 @@ main {
     text-align: end;
     align-self: flex-end;
   }
-  /* Gallery */
+  /* GALLERY */
   #photos {
     column-count: 3;
   }
 }
 
-/* media query: laptops and larger (992px and up)*/
+/* MEDIA QUERY: laptops and larger (992px and up)*/
 @media screen and (min-width:992px) {
-/* header */
+/* HEADER */
   #menu > li > a:hover {
-  border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
   }
-  /* Gallery */
+  /* GALLERY */
   #photos {
     column-count: 4;
   }
 }
 
-/* media query: laptops and much larger (1200px and up)*/
+/* MEDIA QUERY: laptops and much larger (1200px and up)*/
 @media screen and (min-width:1200px) {
-    #benefits {
-        display: flex;
-        flex-direction: row;
+   #benefits {
+       display: flex;
+      flex-direction: row;
     }
     #benefits>div {
-        flex: 1;
+      flex: 1;
     }
     #benefits-image {
-        order: 0
+      order: 0
     }
     #benefits-mental {
-        order: 1;
+      order: 1;
     }
     #benefits-mental>div {
-        align-self: flex-start;
+      align-self: flex-start;
     }
     #benefits-physical>div {
-        align-self: flex-end;
+      align-self: flex-end;
     }
 }
