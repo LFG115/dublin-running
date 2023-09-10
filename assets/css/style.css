@@ -213,6 +213,15 @@ main {
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+#signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
 
 /* media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
