@@ -44,7 +44,7 @@ header {
 
 header a {
     text-decoration: none;
-    color:inheret;
+    color: inherit;
 }
 #menu {
     font-size: 110%;
